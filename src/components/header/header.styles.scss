@@ -1,0 +1,12 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0.5px 0.5px 4px rgb(65, 65, 65);
+    height: 56px;
+    
+    .header-item{
+        margin: 0px 20px;
+    }
+}
