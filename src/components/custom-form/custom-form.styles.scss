@@ -1,0 +1,16 @@
+.custom-form {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    // width: 41%; //in facebook it's 396px, not responsive
+    width: 380px;
+    min-height: 313px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    border: none;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}

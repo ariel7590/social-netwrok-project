@@ -1,0 +1,17 @@
+.custom-button{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding:  0 16px;
+    height: 40px;
+    width: 369px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.custom-button:hover{
+    background-color: #166ddf;
+}

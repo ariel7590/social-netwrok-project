@@ -1,0 +1,83 @@
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url(../../fonts/FontsFree-Net-SFProDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url(../../fonts/FontsFree-Net-SFProDisplay-Regular.ttf)
+}
+
+.sign-up-btn {
+    background-color: #42b72a;
+    width: fit-content;
+    font-size: 17px;
+}
+
+.sign-up-btn:hover {
+    background-color: #3ca527;
+}
+
+.sign-up-form {
+    align-items: flex-start;
+    padding: 5px 10px;
+    padding-bottom: 25px;
+    width: 432px;
+
+    .sign-up-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .sign-up-title {
+            font-size: 32px;
+            font-weight: bold;
+            font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+            line-height: 38px;
+            margin-bottom: 0;
+        }
+
+        .close-btn {
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: red;
+        }
+    }
+
+    .sign-up-hr {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .name-container {
+        display: flex;
+        overflow: unset;
+        justify-content: space-between;
+        width: 100%;
+
+        .sign-up-input {
+            width: 185px;
+        }
+    }
+
+    .sign-up-input {
+        width: 409px;
+        padding: 0 11px;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 16px;
+        background-color: #f5f6f7;
+    }
+
+    .submit-btn{
+        background: #00a400;
+        width: 194px;
+        align-self: center;
+    }
+
+    .submit-btn:hover{
+        background: linear-gradient(#67ae55, #578843);
+    }
+}
